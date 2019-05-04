@@ -1,15 +1,25 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
-
 }
-
-
 
 /**
  * Basic styling
@@ -20,28 +30,34 @@ body {
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
-
-
 
 /**
  * `main` element
@@ -50,8 +66,6 @@ main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-
-
 /**
  * Images
  */
@@ -59,8 +73,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -73,12 +85,11 @@ figcaption {
   font-size: $small-font-size;
 }
 
-
-
 /**
  * Lists
  */
-ul, ol {
+ul,
+ol {
   margin-left: $spacing-unit;
 }
 
@@ -89,16 +100,17 @@ li {
   }
 }
 
-
-
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: $base-font-weight;
 }
-
-
 
 /**
  * Links
@@ -125,7 +137,6 @@ a {
   }
 }
 
-
 /**
  * Blockquotes
  */
@@ -142,42 +153,24 @@ blockquote {
   }
 }
 
-
-
-/**
- * Code formatting
- */
-pre,
 code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
-
-code {
-  padding: 1px 5px;
+  font-weight: 600;
+  color: hsl( 39, 67%, 69%);
+  font-family: monospace;
 }
 
 pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+  padding: 8px;
+  overflow-x: hidden;
 
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
 }
-
-
 
 /**
  * Wrapper
  */
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit / 2;
@@ -186,13 +179,11 @@ pre {
 
   @media screen and (min-width: $on-large) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
 }
-
-
 
 /**
  * Clearfix
@@ -203,29 +194,14 @@ pre {
   clear: both;
 }
 
-
-
-/**
- * Icons
- */
-
-.orange {
-  color: $orange-color;
-}
-
-.grey {
-  color: $grey-color;
-}
-
 .svg-icon {
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
   display: inline-block;
-  fill: currentColor;
-  padding: 5px 3px 2px 5px;
+  fill: $text-color;
+  padding: 2px 2px 2px 2px;
   vertical-align: text-bottom;
 }
-
 
 /**
  * Tables
@@ -242,7 +218,8 @@ table {
       background-color: lighten($grey-color-light, 6%);
     }
   }
-  th, td {
+  th,
+  td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
