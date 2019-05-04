@@ -156,13 +156,14 @@ blockquote {
 code {
   font-weight: 600;
   color: hsl( 39, 67%, 69%);
-  font-family: monospace;
 }
 
 pre {
   padding: 8px;
   overflow-x: hidden;
-
+  > code {
+    color: $text-color;
+  }
 }
 
 /**
