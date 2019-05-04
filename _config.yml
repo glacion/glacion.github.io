@@ -1,33 +1,23 @@
-name: Ahmetcan Güvendiren
-description: (Web|Mobile) developer and Linux elitist. IZTECH Computer Engineering student.
-avatar: /images/avatar.png
-footer-links:
-  email: ahm@glacion.com
-  github: glacion
-  linkedin: glacion
-  twitter: theglacion
-  stackoverflow: users/10138581/glacion
-disqus: glacion-com
-google_analytics: UA-136610903-1
-url: https://glacion.com
+title: Ahmetcan Güvendiren
+email: ahm@glacion.com
+description: >- 
+  (Web|Mobile) developer and Linux elitist. IZTECH Computer Engineering student.
+baseurl: "" 
+url: "https://glacion.com" 
+twitter_username: theglacion
+github_username:  glacion
+minima:
+  date_format: "%Y-%m-%d"
+  social_links:
+    twitter: theglacion
+    github: glacion
+    linkedin: glacion
+    telegram: glacion
+disqus: 
+  shortname: glacion-com
 
-permalink: /:title/
-version: v1.2.0
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-sass:
-  style: :compressed
+
+markdown: kramdown
+theme: minima
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME

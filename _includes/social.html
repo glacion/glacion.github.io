@@ -1,0 +1,21 @@
+{%- assign social = site.minima.social_links -%}
+
+<a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg
+    class="svg-icon grey">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+  </svg></a>
+<a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}"
+  title="{{ social.linkedin | escape }}"><svg class="svg-icon grey">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+  </svg></a>
+<a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><svg
+    class="svg-icon grey">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+  </svg></a>
+<a href="https://t.me/{{ social.telegram | cgi_escape | escape }}" title="{{ social.telegram | escape }}"><svg
+    class="svg-icon grey">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#telegram' | relative_url }}"></use>
+  </svg></a>
+<a href="{{ 'feed.xml' | relative_url }}" title="{{ social.rss | escape }}"><svg class="svg-icon grey">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+  </svg></a>
