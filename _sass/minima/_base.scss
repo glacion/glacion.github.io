@@ -1,3 +1,7 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /**
  * Reset some basic elements
  */
@@ -160,10 +164,19 @@ code {
 
 pre {
   padding: 8px;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+
   > code {
     color: $text-color;
+    font-family: 'Source Code Pro', monospace;
   }
+}
+
+pre::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 /**
@@ -196,8 +209,8 @@ pre {
 }
 
 .svg-icon {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   display: inline-block;
   fill: $text-color;
   padding: 2px 2px 2px 2px;

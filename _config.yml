@@ -1,19 +1,19 @@
 title: Ahmetcan Güvendiren
 email: ahm@glacion.com
-description: >- 
+description: >-
   (Web|Mobile) developer and Linux elitist. IZTECH Computer Engineering student.
-baseurl: "" 
-url: "https://glacion.com" 
+baseurl: ''
+url: 'https://glacion.com'
 twitter_username: theglacion
-github_username:  glacion
+github_username: glacion
 minima:
-  date_format: "%Y-%m-%d"
+  date_format: '%Y-%m-%d'
   social_links:
     twitter: theglacion
     github: glacion
     linkedin: glacion
     telegram: glacion
-disqus: 
+disqus:
   shortname: glacion-com
 google-analytics: UA-136610903-1
 show_excerpts: true
