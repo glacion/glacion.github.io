@@ -1,16 +1,13 @@
 <header class="site-header">
 
-  <div class="wrapper">
-    <a
-      class="site-title"
+  <a
+      class="wrapper site-title"
       rel="author"
       href="{{ "/" | relative_url }}">
       <img
         class="site-logo"
-        src="/favicon/android-chrome-192x192.png"
+        src="{{ site.minima.logo | escape }}"
         alt="Icon">
-      {{ site.title | escape }}
+      <span>{{ site.title | escape }}</span>
     </a>
-
-  </div>
 </header>

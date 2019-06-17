@@ -29,8 +29,7 @@
 .site-logo {
   float: left;
   width: 32px;
-  margin-top: 12px;
-  margin-right: 8px;
+  margin-right: $spacing-unit / 4;
   border-radius: 50%;
 
   @media screen and (max-width: 320px) {
