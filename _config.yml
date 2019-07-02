@@ -1,7 +1,5 @@
 title: Ahmetcan Güvendiren
 
-description: >-
-  (Web|Mobile) developer and Linux elitist. IZTECH Computer Engineering student.
 baseurl: ''
 url: 'https://glacion.com'
 minima:
@@ -16,7 +14,7 @@ minima:
 disqus:
   shortname: glacion-com
 google-analytics: UA-136610903-1
-show_excerpts: true
+excerpt_separator: <!--end_excerpt-->
 markdown: kramdown
 theme: minima
 plugins:
