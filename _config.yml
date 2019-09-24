@@ -14,7 +14,6 @@ minima:
 disqus:
   shortname: glacion-com
 google-analytics: UA-136610903-1
-excerpt_separator: <!--end_excerpt-->
 markdown: kramdown
 theme: minima
 plugins:
