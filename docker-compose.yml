@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jekyll:
+    image: starefossen/github-pages
+    volumes: 
+      - ./:/usr/src/app:Z
+    ports:
+      - 80:4000
+    tty: true
+  
