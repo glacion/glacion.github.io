@@ -3,14 +3,9 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
   <ul class="post-list">
-    {%- for post in site.posts -%}
+    {%- for post in site.posts -%} {%- unless post.hide -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
       -%}
@@ -21,6 +16,7 @@ layout: default
         </a>
       </h3>
     </li>
-    {%- endfor -%}
+    {%- endunless -%} {%- endfor -%}
   </ul>
 </div>
+
