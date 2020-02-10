@@ -157,11 +157,6 @@ blockquote {
   }
 }
 
-code {
-  font-weight: 600;
-  color: hsl( 39, 67%, 69%);
-}
-
 pre {
   padding: 8px;
   overflow-x: auto;
@@ -204,35 +199,6 @@ pre {
 .svg-icon {
   width: 32px;
   height: 32px;
-}
-
-/**
- * Tables
- */
-table {
-  margin-bottom: $spacing-unit;
-  width: 100%;
-  text-align: $table-text-align;
-  color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $grey-color-light;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-    }
-  }
-  th,
-  td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
-  }
-  th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
-  }
-  td {
-    border: 1px solid $grey-color-light;
-  }
 }
 
 .not-found {
