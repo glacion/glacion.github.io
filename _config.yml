@@ -12,7 +12,6 @@ social_links:
   email: ahm@glacion.com
 disqus:
   shortname: glacion-com
-google-analytics: UA-136610903-1
 markdown: kramdown
 theme: minima
 plugins:
