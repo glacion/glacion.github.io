@@ -10,8 +10,6 @@ social_links:
   linkedin: glacion
   telegram: glacion
   email: ahm@glacion.com
-disqus:
-  shortname: glacion-com
 markdown: kramdown
 theme: minima
 plugins:
