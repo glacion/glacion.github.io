@@ -3,7 +3,7 @@ title: Ahmetcan Güvendiren
 baseurl: ''
 url: 'https://glacion.com'
 date_format: '%Y-%m-%d'
-logo: '/favicon.ico'
+logo: 'favicon/favicon.ico'
 social_links:
   twitter: theglacion
   github: glacion
