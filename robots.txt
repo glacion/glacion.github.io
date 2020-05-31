@@ -1,2 +1,3 @@
 User-agent: *
 Sitemap: https://glacion.com/sitemap.xml
+Disallow: /network
