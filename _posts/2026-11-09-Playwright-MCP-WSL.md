@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2026-11-09 00:00:00 +0300
-modified_date: 2026-11-09 00:00:00 +0300
+date: 2026-11-09 00:00:00
+modified_date: 2026-11-09 00:00:00
 title: Driving Windows Chrome From WSL With Playwright MCP
 tags: wsl playwright chrome mcp
 author: Can Güvendiren
