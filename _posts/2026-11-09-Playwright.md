@@ -2,7 +2,7 @@
 layout: post
 date: 2026-11-09 00:00:00
 modified_date: 2026-11-09 00:00:00
-title: Driving Google Chrome Via Playwright MCP From WSL
+title: Driving Google Chrome via Playwright MCP from WSL
 tags: wsl playwright chrome mcp
 author: Can Güvendiren
 ---
